@@ -1,0 +1,14 @@
+{
+    "name": "exercise-adria-gual",
+    "version": "1.0.0",
+    "scripts": {
+        "babel": "babel src -d src/output",
+        "scss": "sass styles/scss:styles/css --watch"
+    },
+    
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4"
+    }
+}
